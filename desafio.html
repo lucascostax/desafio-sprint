@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="desafio.css">
+</head>
+
+<body>
+    <header>
+        <p>SyncTur</p>
+
+        <div class="cadastrar">
+
+            <p>Cadastrar Pacotes</p>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="cadastro">
+
+            <div class="pacote_e_descricao">
+
+                <!-- Parte esquerda -->
+
+                <div class="Pacote">
+                    <P>Pacote</P>
+                    <input type="text" placeholder="Digite Nome completo" id="nome">
+
+                    <div class="status_e_data">
+
+                        <div class="status">
+
+                            <p>Status do Pacote</p>
+                            <input type="checkbox" id="boxativo">
+                            <label for="Ativo">Ativo</label>
+                            <input type="checkbox" id="boxinativo">
+                            <label for="inativo">Inativo</label>
+
+                        </div>
+
+                        <div class="data">
+                            <p>Data da viagem</p>
+
+                            <input type="date" id="data" placeholder="Data">
+                            <label for=""></label>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--Parte direita-->
+
+                <div class="descricao">
+                    <P>Descrição</P>
+                    <textarea type="text" placeholder="Descrição do Pacote" id="descricao"></textarea></textarea>
+                </div>
+
+            </div>
+
+<div id="btn">
+
+    <button id="botao_cadastrar" onclick="cadastrar ()">Cadastrar</button>
+</div>
+        </div>
+
+        <!-- pacotes do Type-Script -->
+
+        <div class="pacotes" id="pacotes"></div>
+
+    </main>
+
+    <footer>
+
+        <div class="synctur">
+            <P>SyncTur</P>
+        </div>
+
+        <div class="linha"></div>
+
+        <div class="texto">
+
+            <p>Company Inc., 8901 Marmora Road, Glasgow, D04 89GR
+
+                Call us now toll free: (800)2345-6789
+
+                Customer support: support@demolink.org
+
+                Skype: sample-username
+            </p>
+
+        </div>
+    </footer>
+
+    <script src="desafio.js"></script>
+</body>
+
+</html>

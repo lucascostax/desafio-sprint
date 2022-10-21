@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+header {
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin: auto;
+}
+
+.cadastrar {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+
+
+main {
+    margin: auto;
+}
+
+body {
+    margin: auto;
+}
+
+.pacote_e_descricao {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 1250px;
+
+}
+
+.Pacote {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.pacote_e_descricao p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.Pacote input {
+    height: 38px;
+    width: 589px;
+    border-radius: 4px;
+
+}
+
+.Pacote p {
+    display: flex;
+    align-items: flex-start;
+}
+
+.descricao textarea {
+    height: 161px;
+    width: 555px;
+    border-radius: 4px;
+
+}
+
+
+.descricao p {
+    display: flex;
+
+}
+
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50pt;
+}
+
+.status_e_data {
+    display: flex;
+    margin-top: 20pt;
+    justify-content: space-around;
+}
+
+.status {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.status p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+}
+
+.status input {
+    height: 16px;
+    width: 16px;
+ 
+}
+
+
+.data p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.data input {
+    height: 38px;
+    width: 293px;
+    border-radius: 4px;
+}
+
+.cadastro button {
+    height: 39px;
+    width: 109px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    background-color: #8458FF;
+    color: white;
+    border-color: #8458FF;
+    margin-top: 40px;
+}
+
+.pacote_x {
+    border: 1px solid #DEE2E6;
+    width: 1189px;
+    height: 265px;
+    border-radius: 4px;
+    margin: auto;
+ margin-top: 50px;}
+
+/* .pacote_y {
+    border: 1px solid #DEE2E6;
+    width: 1189px;
+    height: 265px;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.pacote_z {
+    border: 1px solid #DEE2E6;
+    width: 1189px;
+    height: 265px;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 30px;
+} */
+
+.status input {
+    margin-top: 30px;
+}
+
+.data input {
+    margin-top: 30px;
+}
+
+.titulo_x {
+    width: 206px;
+    height: 29px;
+    color: #152536;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+
+}
+ 
+
+.texto1 {
+    width: 508px;
+    height: 48px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6C757D;
+    margin-top: 40pt;
+}
+
+.editar {
+    width: 78px;
+    height: 39px;
+    background: #FFC107;
+    color: white;
+    border-color: #FFC107;
+    border-radius: 4px;
+    margin-top: 40pt;
+    
+}
+
+.excluir {
+    color: white;
+    width: 85px;
+    border-color: #DC3545;
+    height: 39px;
+    background: #DC3545;
+    border-radius: 4px;
+    
+} 
+
+footer {
+    width: 100%;
+    height: 250px;
+    background: #F6511D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.synctur {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.texto {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    color: white;
+    width: 357px;
+}
+
+.linha {
+    width: 200px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    transform: rotate(90deg);
+}
+
